@@ -477,11 +477,7 @@ main {
   align-items: center;
 }
 
-.volume-controls .slider {
-  flex: 1;
-  width: 100px;
-  height: 4px;
-}
+
 
 /*PLAYER*/
 
