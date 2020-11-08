@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="main-nav">
+                <div class="nav-brand">
+                    <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                </div>
+
+                <div class="center">
+                    <div class="search">
+                        <input type="text" placeholder="Search">
+                    </div>
+                    <ul class="nav-ul">
+                        <li class="nav-li active"><a href="" class="nav-link">Home</a></li>
+                        <li class="nav-li"><a href="" class="nav-link">Hot</a></li>
+                        <li class="nav-li"><a href="" class="nav-link">Genre</a></li>
+                        <li class="nav-li"><a href="" class="nav-link">Recommended</a></li>
+                    </ul>
+                </div>
+                <div class="profile">
+                    <div class="settings-icon">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    <h5>John Doe</h5>   
+                    <a class="profile-image"></a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="playlist-tray">
+                <div class="library">
+                    <h2>Library</h2>
+                    <ul>
+                        <li><a href="#"> <i class="fas fa-music"></i> Recently Added</a></li>
+                        <li><a href="#"> <i class="far fa-play-circle"></i> Albums</a></li>
+                        <li><a href="#"> <i class="fas fa-microphone"></i> Singer</a></li>
+                        <li><a href="#"> <i class="fas fa-file-audio"></i> Local Files</a></li>
+                        <li><a href="#"> <i class="fas fa-heart"></i> Liked</a></li>
+                    </ul>
+                </div>
+                <div class="playlist">
+                    <h2>Playlists</h2>
+                    <ul class="playlist-ul">
+                        <li><a href="#">Indie</a></li>
+                        <li><a href="#" class="playlist-active">Don Medina</a></li>
+                        <li><a href="#">Sara</a></li>
+                        <li><a href="#">Moon River</a></li>
+                        <li><a href="#">House</a></li>
+                        <li><a href="#">Yestoday</a></li>
+                        <li><a href="#">Color</a></li>
+                        <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="popular-tray">
+                <div class="popular">
+                    <div class="heading">
+                        <h2>POPULAR</h2>
+                        <div class="arrow-icons">
+                            <i class="fas fa-chevron-left"></i>
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="popular-card">
+                    <div class="hero-image-div">
+                        <h3>Runnin</h3>
+                        <p>Naughty Boy ft. Beyonce</p>
+                    </div>
+                    <div class="hero-list-div">
+                        <div class="song">
+                            <h4>Elmer Harper</h4>
+                            <p>Hester Holmes</p>
+                        </div>
+                        <div class="song sactive" >
+                            <h4>Ray Bridges</h4>
+                            <p>Mystie Harrison</p>
+                        </div>
+                        <div class="song">
+                            <h4>Eddie Potter</h4>
+                            <p>Harrison Bridges</p>
+                        </div>
+                        <div class="song">
+                            <h4>Timothy</h4>
+                            <p>Lina Sherman</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="albums">
+                    <div class="heading">
+                        <h2>ALBUMS</h2>
+                        <div class="arrow-icons">
+                            <i class="fas fa-chevron-left"></i>
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                    </div>
+                    <div class="album-cards-container">
+                        <div class="card">
+                            <div class="card-image card1">
+                                <i class="far fa-play-circle"></i>
+                            </div>
+                            <div class="card-name">
+                                <h4>Havanna</h4>
+                                <p>Camila Cabello</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-image card2">
+                                <i class="far fa-play-circle"></i>
+                            </div>
+                            <div class="card-name">
+                                <h4>Ralph Gross</h4>
+                                <p>Coldplay</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-image card3">
+                                <i class="far fa-play-circle"></i>
+                            </div>
+                            <div class="card-name">
+                                <h4>Jack Stevenson</h4>
+                                <p>Jaded Coma</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="videos-tray">
+                <div class="video-div">
+                    <div class="heading">
+                        <h2>VIDEOS</h2>
+                    </div>
+                    <div class="video-image-div">
+                        <h4>Cole Rivera</h4>
+                        <p>Lorem ipsum dolor.</p>
+                    </div>
+                </div>
+                <div class="video-list">
+                    <div class="video">
+                        <div class="video-image"></div>
+                        <div class="video-name">
+                            <h5>James Frank</h5>
+                            <p>Erik Sins</p>
+                        </div>
+                        <div class="video-duration">
+                            <h4>4:07</h4>
+                        </div>
+                    </div>
+                    <div class="video vactive">
+                        <div class="video-image"></div>
+                        <div class="video-name">
+                            <h5>Rosaile Lane</h5>
+                            <p>Vincent Harris</p>
+                        </div>
+                        <div class="video-duration">
+                            <i class="far fa-play-circle"></i>
+                        </div>
+                    </div>
+                    <div class="video">
+                        <div class="video-image"></div>
+                        <div class="video-name">
+                            <h5>Michelle Fizz</h5>
+                            <p>Rock Davis</p>
+                        </div>
+                        <div class="video-duration">
+                            <h4>19:00</h4>
+                        </div>
+                    </div>
+                    <div class="video">
+                        <div class="video-image"></div>
+                        <div class="video-name">
+                            <h5>Michelle Fizz</h5>
+                            <p>Rock Davis</p>
+                        </div>
+                        <div class="video-duration">
+                            <h4>19:00</h4>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </main>
+        <div class="player-div">
+            <div class="playing-name">
+                <i class="fas fa-heart"></i>
+                <h4>Don Medina</h4>
+                <!-- <p>Dialog</p> -->
+            </div>
+            <div class="player-controls">
+                <div class="control-icons">
+                    <i class="fas fa-step-backward"></i>
+                    <i class="far fa-play-circle"></i>
+                    <i class="fas fa-step-forward"></i>
+                </div>
+            </div>
+            <div class="duration-indicator">
+                <p>2:58</p>
+                <div class="slider">
+                    <div class="blue-line"></div>
+                </div>
+                <p>4:15</p>
+            </div>
+            <div class="volume-controls">
+                <i class="fas fa-sync-alt"></i>
+                <i class="fas fa-random"></i>
+                <i class="fas fa-volume-up">
+                <div class="slider">
+                    <div class="blue-line"></div>
+                </div>
+            </i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
